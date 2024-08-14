@@ -1,3 +1,5 @@
+'use client';
+
 import { PropsWithChildren, useMemo } from "react";
 import { createContext } from "react";
 import { FrappeApp, FrappeAuth, FrappeCall } from "frappe-js-sdk";
