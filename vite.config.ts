@@ -22,6 +22,7 @@ export default defineConfig({
   plugins: [
     dts({
       insertTypesEntry: true,
+      exclude: ['./src/lib/socket.d.ts'],
     }),
     react()
   ]
